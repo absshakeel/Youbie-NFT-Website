@@ -1,8 +1,10 @@
 import React from 'react';
 import Banner from '../../components/Banner/Banner';
+import Betting from '../../components/Betting/Betting';
 import Featured from '../../components/Featured/Featured';
 import Footer from '../../components/Footer/Footer';
 import Introduction from '../../components/Introduction/Introduction';
+import NewsFeed from '../../components/NewsFeed/NewsFeed';
 import NFT from '../../components/NFT/NFT';
 import Premium from '../../components/Premium/Premium';
 import RoadMap from '../../components/RoadMap/RoadMap';
@@ -25,7 +27,8 @@ const Home = () => {
             <Tokenomic/>
             <Tournament/>
             <TopTeam/>
-
+            <Betting/>
+            <NewsFeed/>
             <Testimonial/>
             <Footer/>
         </div>
