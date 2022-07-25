@@ -28,10 +28,6 @@ const handleMobileMenu = ()=>{
 }
 
 
-
-
-
-
   return (
     <header id="main-header" className="header-main">
     <nav className="navigation-menu">
@@ -117,7 +113,7 @@ const handleMobileMenu = ()=>{
             <li className="nav-menu__nav-item">
               <Link to="/" className="nav-item-link">Explore</Link>
             </li>
-            <li class="nav-menu__nav-item">
+            <li className="nav-menu__nav-item">
               <Link to="/" className="nav-item-link">Stream</Link>
             </li>
             <li className="nav-menu__nav-item">

@@ -1,4 +1,4 @@
-.section {
+.streamers-section .section {
     padding: 7% 0;
     position: relative;
     z-index: 0;
@@ -208,3 +208,8 @@
     background-color: #ffffff;
     color: #100032;
   }
+/* Splide js */
+.splide__pagination {
+  position: static;
+  margin: 2rem auto;
+}
